@@ -10,19 +10,20 @@ Start
 1. When alarm rings:
     a. Play loud trumpet sound.
     b. Vibrate phone for 1 minute.
-    c. Display message: "Rise and shine! Your not a burrito get out of that blanket wrap!"
+    c. Display message: "Rise and shine! You're not a burrito get out of that blanket wrap!"
 
 2. IF user selects "snooze" THEN
     a. Stop trumpet sound.
     c. Wait 5 more minutes.
     d. Repeat alarm process.
 
-3. ELSE IF user selects "stop" THEN
+3. ELIF user selects "stop" THEN
     a. Stop trumpet sound.
     b. Display "You've got this! Even Mondays can't stop you!"
     c. End alarm.
 
 4. ELSE 
-    a. Keep alarm ringing until user selects "snooze" or "stop".
+    a. Keep vibrating
+    b. Keep alarm ringing until user selects "snooze" or "stop".
 
 End
