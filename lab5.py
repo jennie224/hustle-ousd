@@ -32,9 +32,9 @@ print(generate_superhero_power2("Jennie", "teleport"))
 # Step 5
 def cat_greeting_loop():
 
-    greeting = ["meow", "purr", "meiiow"]
-    for i in range(5):
-        print(f'The cat says {greeting}')
+    greeting = ["meow", "purr", "meiiow", "hiss", "mrrp"]
+    for i in greeting:
+        print(f'The cat says {i}')
 
 cat_greeting_loop()
 
