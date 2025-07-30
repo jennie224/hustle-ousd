@@ -22,20 +22,20 @@ class Hero:
         print(f"The winner is: {winner.name}")
 
     def add_ability(self, ability):
-     self.abilities.append(ability)
+        self.abilities.append(ability)
 
     def sum_of_attacks(self):
-     total_damage = 0
-     for ability in self.abilities:
+        total_damage = 0
+        for ability in self.abilities:
           total_damage += ability.attack()
-     return total_damage
+        return total_damage
      
     def add_armor(self, new_armor):
-     self.armor_list.append(new_armor)
+        self.armor_list.append(new_armor)
 
     def defend(self):
-     total_defense = 0
-     for armor in self.armor_list:
+        total_defense = 0
+        for armor in self.armor_list:
           total_defense += armor.block()
           return total_defense
 
